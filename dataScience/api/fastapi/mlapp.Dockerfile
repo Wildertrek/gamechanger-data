@@ -1,4 +1,4 @@
-FROM python:3.6.13-buster
+FROM python:3.6.14-buster
 ADD api/requirements.txt .
 RUN apt-get update
 #RUN apt install --yes gcc python3-dev libc-dev
